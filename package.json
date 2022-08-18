@@ -16,8 +16,7 @@
     "next": "12.2.5",
     "omit-deep": "^0.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "wagmi": "^0.6.4"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
