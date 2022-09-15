@@ -169,16 +169,16 @@ export default function Footer(props) {
     }, [status, account, chainId])
 
     return (
-        <div class="mt-5 mr-5 flex justify-end">
+        <div className="mt-5 mr-5 flex justify-end">
             <button
                 onClick={handleConnect}
-                class="w-auto bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                className="w-auto bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
             >
                 {buttonText}
             </button>
             <button
                 onClick={login}
-                class="ml-5 w-auto bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+                className="ml-5 w-auto bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
             >
                 {loginText}
             </button>
